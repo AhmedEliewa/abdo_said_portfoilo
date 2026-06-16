@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import Form from "./Form";
 
