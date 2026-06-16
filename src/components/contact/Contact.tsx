@@ -20,22 +20,15 @@ const Contact = () => {
         </p>
         <div className="flex justify-center gap-5 my-9">
           <a
-            className="p-3  rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-            href="https://wa.me/201020433005?text=if have any question or project i can help you"
-            target="_blank"
-          >
-            <FaWhatsapp className="text-green-600" size={22} />
-          </a>
-          <a
             className="p-3 text-blue-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-            href="https://www.linkedin.com/in/ahmed-eliewa16/"
+            href="https://www.linkedin.com/in/abdelrahman-said-361096308/"
             target="_blank"
           >
             <FaLinkedinIn size={22} />
           </a>
           <a
             className="p-3 hover:text-red-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-            href="https://www.instagram.com/ahmed_3liewa16/"
+            href="https://www.instagram.com/abdelrahmansaid10"
             target="_blank"
           >
             <GrInstagram size={22} />

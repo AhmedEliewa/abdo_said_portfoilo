@@ -1,5 +1,5 @@
 import { SiExpensify } from "react-icons/si";
-import me2 from "../../assets/me2.jpg";
+import me2 from "../../assets/abdo2.jpeg";
 
 import { motion } from "framer-motion";
 
@@ -72,40 +72,14 @@ const About = () => {
             variants={textVariants}
             initial="hidden"
             whileInView="show"
-            className="flex items-center flex-col gap-2 border-2 border-gray-400 px-6 py-4 shadow-md shadow-amber-950 rounded-xl w-87.25"
-          >
-            <SiExpensify size={20} />
-            <h5 className="font-semibold">Experience</h5>
-            <p className="text-gray-600">
-              1 year of self-learning and project-based frontend development
-            </p>
-          </motion.div>
-          <motion.div
-            variants={textVariants}
-            initial="hidden"
-            whileInView="show"
             className="flex items-center flex-col gap-2 border-2 border-gray-400 px-6 py-4 shadow-sm shadow-amber-950 rounded-xl "
           >
             <p>
-              I’m a self-taught Frontend Developer with hands-on experience in{" "}
-              <span className="font-medium capitalize">react</span>, HTML, CSS,
-              tailwind, and JavaScript and typescript,. Since 2023,
-            </p>
-            <p>
-              I’ve built and deployed several projects, solved complex bugs, and
-              continuously improved my development workflow using AI-powered
-              tools.
-            </p>
-            <p>
-              I’m passionate about creating clean, responsive, and user-friendly
-              web interfaces, and I’m always eager to learn new technologies
-              that enhance performance and user experience.
-            </p>
-            <p>
-              I’m now looking for an opportunity to join a collaborative team
-              where I can contribute to real-world projects, grow as a
-              developer, and add value through both technical skills and
-              creativity.
+              Mechatronics Engineer with a Bachelor's degree and expertise in
+              designing and implementing automation and control systems.
+              Proficient in embedded systems and Linux, eager to apply technical
+              skills to innovative projects and continue learning in the field
+              of engineering.
             </p>
           </motion.div>
         </motion.div>

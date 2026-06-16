@@ -3,11 +3,10 @@ import { GiSparkles } from "react-icons/gi";
 
 interface Skill {
   name: string;
-  description: string;
 }
 interface SkillCategory {
   category: string;
-  icon: React.ReactNode;
+
   color: string;
   skills: Skill[];
 }
@@ -15,83 +14,68 @@ interface SkillCategory {
 const useSkills = () => {
   const skillCategories: SkillCategory[] = [
     {
-      category: "Frontend Development",
-      icon: <BiCode size={24} />,
+      category: "Electrical Design & Engineering",
+
       color: "blue",
       skills: [
         {
-          name: "React.js",
-          description:
-            "Building dynamic UIs with hooks and component architecture",
+          name: "AutoCAD Electrical",
         },
         {
-          name: "TypeScript",
-          description: "Type-safe JavaScript for scalable applications",
+          name: "Revit MEP",
         },
         {
-          name: "JavaScript (ES6+)",
-          description: "Modern JavaScript with latest features",
+          name: "ETAP",
         },
         {
-          name: "Redux Toolkit",
-          description: "Efficient state management for complex apps",
+          name: "Dialux Evo",
         },
-        {
-          name: "Context API",
-          description: "React state management for lighter needs",
-        },
-        { name: "React Router", description: "Client-side routing for SPAs" },
+
+        { name: "Short Circuit Analysis" },
       ],
     },
     {
-      category: "Styling & UI",
-      icon: <BiPalette size={24} />,
+      category: "Building Systems & MEP",
+
       color: "green",
       skills: [
         {
-          name: "Tailwind CSS",
-          description: "Utility-first CSS framework for rapid UI development",
+          name: "Power Distribution Systems",
         },
         {
-          name: "Material UI",
-          description: "React component library with Material Design",
+          name: "Lighting Systems Design",
         },
         {
-          name: "Bootstrap",
-          description: "Popular CSS framework for responsive design",
+          name: "Earthing & Lightning Protection",
         },
         {
-          name: "Responsive Design",
-          description: "Mobile-first, cross-device compatibility",
+          name: "Fire Alarm Systems",
         },
       ],
     },
     {
-      category: "Animations & Motion",
-      icon: <GiSparkles size={24} />,
+      category: "Technical Office & Documentation",
+
       color: "orange",
       skills: [
         {
-          name: "Framer Motion",
-          description: "Production-ready animations for React",
+          name: "Quantity Take-Off (QTO)",
         },
         {
-          name: "CSS Animations",
-          description: "Custom animations with CSS transitions",
+          name: "Material Submittals (MS)",
         },
       ],
     },
     {
       category: "Tools & Workflow",
-      icon: <BiWrench size={24} />,
+
       color: "gray",
       skills: [
-        { name: "Git", description: "Version control and collaboration" },
-        { name: "GitHub", description: "Code hosting and project management" },
-        { name: "JSON Server", description: "Quick backend prototyping" },
+        { name: "Microsoft Excel" },
+        { name: "Microsoft Project" },
+        { name: "Autodesk Navisworks" },
         {
-          name: "Netlify",
-          description: "Deployment and continuous integration",
+          name: "Bluebeam Revu",
         },
       ],
     },

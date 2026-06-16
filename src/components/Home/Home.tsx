@@ -1,7 +1,6 @@
-import { FaArrowRightLong, FaGithub, FaLinkedinIn } from "react-icons/fa6";
-import { HiOutlineDownload } from "react-icons/hi";
-import { MdMailOutline } from "react-icons/md";
-import img from "../../assets/me1.jpg";
+import { FaLinkedinIn, FaFacebook } from "react-icons/fa6";
+
+import img from "../../assets/abdo.jpeg";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -69,54 +68,29 @@ const Home = () => {
               hello, i'm
             </motion.p>
             <motion.h3 variants={textVariants} className="text-5xl">
-              Ahmed Eliewa
+              Abdelrahman Said
             </motion.h3>
             <motion.p
               variants={textVariants}
               className="text-2xl text-gray-600 "
             >
-              Front-End Developer specializing in React & TypeScript
+              Electrical Technical Office Engineer
             </motion.p>
-            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a
-                href="#projects"
-                className="cursor-pointer group capitalize py-3 px-6 flex items-center gap-2 font-medium bg-transparent text-black rounded-full border-2 border-black hover:bg-black hover:text-white transition-all duration-300"
-              >
-                view projects
-                <FaArrowRightLong
-                  size={19}
-                  className="group-hover:translate-x-1 transition-all duration-300 group-hover:text-white group-hover:shadow-2xl"
-                />
-              </a>
-              <a
-                href="/Ahmed_Eliewa.pdf"
-                download="Ahmed Eliewa CV"
-                className="cursor-pointer flex capitalize items-center gap-2 py-3 px-6 bg-gray-900 text-white border-2  rounded-full hover:bg-gray-700  transition-all duration-300 font-medium "
-              >
-                download CV <HiOutlineDownload size={19} />
-              </a>
-            </div>
+
             <div className="flex justify-center gap-5 my-9">
               <a
-                className="p-3  rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-                href="https://github.com/AhmedEliewa"
-                target="_blank"
-              >
-                <FaGithub size={19} />
-              </a>
-              <a
                 className="p-3 hover:text-blue-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-                href="https://www.linkedin.com/in/ahmed-eliewa-88b569387/"
+                href="https://www.linkedin.com/in/abdelrahman-said-361096308/"
                 target="_blank"
               >
                 <FaLinkedinIn size={19} />
               </a>
               <a
-                className="p-3 hover:text-red-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-                href="mailto:ahmedaboeliewa@gmail.com"
+                className="p-3 hover:text-blue-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
+                href="https://web.facebook.com/ABODASAID0"
                 target="_blank"
               >
-                <MdMailOutline size={19} />
+                <FaFacebook size={19} />
               </a>
             </div>
           </motion.div>

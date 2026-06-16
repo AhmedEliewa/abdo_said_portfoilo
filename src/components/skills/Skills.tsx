@@ -15,12 +15,9 @@ const Skills = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Skills & Technologies
+            Skills
           </h2>
           <div className="w-40 h-1 bg-blue-600 mx-auto mb-4 animate-pulse"></div>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern web applications
-          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -32,7 +29,6 @@ const Skills = () => {
                 className="bg-white rounded-xl p-6 shadow-md"
               >
                 <div className="flex items-center gap-3 mb-6">
-                  <div className={`${colorClasses.text}`}>{category.icon}</div>
                   <h3 className="text-2xl font-semibold text-gray-900">
                     {category.category}
                   </h3>

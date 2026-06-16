@@ -6,7 +6,7 @@ const navItems = [
   { name: "home", href: "#home" },
   { name: "about", href: "#about" },
   { name: "skills", href: "#skills" },
-  { name: "projects", href: "#projects" },
+
   { name: "contact", href: "#contact" },
 ];
 
@@ -40,7 +40,7 @@ const Nav = () => {
     >
       <div className="flex justify-between items-center p-4 sm:px-6 max-w-7xl mx-auto h-16 ">
         <div className="first-letter:text-2xl font-[cursive] hover:scale-110 transition duration-500">
-          <a href="/">A.3liewa</a>
+          <a href="/">A.Said</a>
         </div>
         <ul className="hidden md:flex gap-4 ">
           {navItems.map((item) => (
