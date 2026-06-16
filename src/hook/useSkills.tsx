@@ -1,5 +1,4 @@
-import { BiCode, BiPalette, BiWrench } from "react-icons/bi";
-import { GiSparkles } from "react-icons/gi";
+
 
 interface Skill {
   name: string;
