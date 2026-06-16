@@ -1,4 +1,4 @@
-import { SiExpensify } from "react-icons/si";
+
 import me2 from "../../assets/abdo2.jpeg";
 
 import { motion } from "framer-motion";
